@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+.app {
+    height: 100vh;
+}
+
+.app_light {
+    background: #ccc;
+}
+
+.app_dark {
+    background: #2d2d2d;
+}
+
+.listItem {
+    font-size: 14px;
+}
+
+.listItem_dark {
+    color: #ccc;
+}
+
+.listItem_light {
+    color: #000;
+}

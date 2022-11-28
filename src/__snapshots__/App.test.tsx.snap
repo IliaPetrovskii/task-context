@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Контекст ThemeProvider спускает тему через контекст, useTheme получает тему из контекста 1`] = `
+<div>
+  <div>
+    dark
+  </div>
+</div>
+`;
+
+exports[`Контекст ThemeProvider спускает тему через контекст, useTheme получает тему из контекста 2`] = `
+<div>
+  <div>
+    light
+  </div>
+</div>
+`;
+
+exports[`Контекст Список правильно отрисовывается и реагирует на переключение темы 1`] = `
+<div>
+  <div
+    class="app app_light"
+  >
+    <button>
+      Toggle theme
+    </button>
+    <div>
+      <div
+        class="listItem listItem_light"
+      >
+        Иванов И.И.
+      </div>
+      <div
+        class="listItem listItem_light"
+      >
+        Петров П.П.
+      </div>
+      <div
+        class="listItem listItem_light"
+      >
+        Сидоров С.С.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Контекст Список правильно отрисовывается и реагирует на переключение темы 2`] = `
+<div>
+  <div
+    class="app app_dark"
+  >
+    <button>
+      Toggle theme
+    </button>
+    <div>
+      <div
+        class="listItem listItem_dark"
+      >
+        Иванов И.И.
+      </div>
+      <div
+        class="listItem listItem_dark"
+      >
+        Петров П.П.
+      </div>
+      <div
+        class="listItem listItem_dark"
+      >
+        Сидоров С.С.
+      </div>
+    </div>
+  </div>
+</div>
+`;
